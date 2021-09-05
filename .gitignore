@@ -15,4 +15,5 @@ main.synctex.gz
 main.log
 main.toc
 .vscode
+.DS_Store
 
