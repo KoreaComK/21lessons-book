@@ -1,13 +1,13 @@
-\chapter{Tempo demanda trabalho}
+\chapter{Dizer as horas demanda trabalho}
 \label{les:17}
 
 \begin{chapquote}{Lewis Carroll, \textit{Alice no País das Maravilhas}}
-\enquote{Oh puxa! Oh puxa! Eu devo estar muito atrasado!}
+\enquote{Oh puxa! Oh puxa! Eu devo estar muito atrasada!}
 \end{chapquote}
 
-Costuma-se dizer que os bitcoins são minerados porque milhares de computadores trabalham na solução de problemas matemáticos \textit{muito complexos}. Certos problemas precisam ser resolvidos, e se você calcular a resposta certa, você \enquote{produz} um bitcoin. Embora essa visão simplificada da mineração de bitcoin possa ser simples de ser transmitida e entendida, ela é muito leviana em alguns aspectos. Os bitcoins não são produzidos ou criados, e toda a provação não é realmente sobre a solução de problemas matemáticos específicos. Além disso, a matemática não é particularmente complexa. O que é complexo é \textit{dizer as horas} em um sistema descentralizado.
+Costuma-se dizer que os bitcoins são minerados porque milhares de computadores trabalham na solução de problemas matemáticos \textit{muito complexos}. Certos problemas precisam ser resolvidos, e se você calcular a resposta certa, você \enquote{produz} um bitcoin. Embora essa visão simplificada da mineração de bitcoin possa ser fácil de ser transmitida e entendida, ela deixa a desejar em alguns aspectos. Os bitcoins não são produzidos ou criados, e toda esssa experiência não é realmente sobre a solução de problemas matemáticos específicos. Além disso, a matemática não é particularmente complexa. O que é complexo é \textit{dizer as horas} em um sistema descentralizado.
 
-Conforme descrito no whitepaper, o sistema de prova de trabalho (também conhecido como mineração) é uma maneira de implementar um servidor de carimbo de data/hora distribuído.
+Conforme descrito no whitepaper, o sistema de prova de trabalho (também conhecido como mineração) é uma maneira de implementar um servidor de data/hora distribuído.
 
 \begin{figure}
   \includegraphics{assets/images/bitcoin-whitepaper-timestamp-wide.png}
@@ -15,22 +15,22 @@ Conforme descrito no whitepaper, o sistema de prova de trabalho (também conheci
   \label{fig:bitcoin-whitepaper-timestamp-wide}
 \end{figure}
 
-Quando aprendi como o Bitcoin funciona, também pensei que a prova de trabalho era ineficiente e um desperdício. Depois de um tempo, comecei a mudar minha perspectiva sobre o consumo de energia do Bitcoin~\cite{gigi:energy}. Parece que a prova de trabalho ainda é muito mal compreendida, mesmo neste ano 10 DB (depois do Bitcoin).
+Quando aprendi como o Bitcoin funciona, também pensei que a prova de trabalho era ineficiente e um desperdício. Depois de um tempo, comecei a mudar minha perspectiva sobre o consumo de energia do Bitcoin~\cite{gigi:energy}. Parece que a prova de trabalho ainda é muito mal compreendida, mesmo no ano 10 DB (depois do Bitcoin).
 
-Uma vez que os problemas a serem resolvidos na prova de trabalho são criados, muitas pessoas parecem acreditar que este é um trabalho \textit{inútil}. Se o foco for puramente o cálculo, esta é uma conclusão razoável. Mas o Bitcoin não é sobre computação. É sobre \textit{concordar independentemente na ordem das coisas}.
+Uma vez que os problemas a serem resolvidos na prova de trabalho são criados, muitas pessoas parecem acreditar que este é um trabalho \textit{inútil}. Se o foco for puramente o cálculo, essa é uma conclusão razoável. Mas o Bitcoin não é sobre computação. É sobre \textit{concordar independentemente sobre ordem das coisas}.
 
 A Prova de trabalho é um sistema no qual todos podem validar o que aconteceu e em que ordem aconteceu. Essa validação independente é o que leva ao consenso, um acordo individual entre várias partes sobre quem possui o quê.
 
-Em um ambiente radicalmente descentralizado, não podemos nos dar ao luxo de ter um tempo absoluto. Qualquer relógio introduziria uma terceira parte confiável, um ponto central no sistema que deveria ser confiável e poderia ser atacado. \enquote{O tempo é a raiz do problema}, como Grisha Trubetskoy aponta~\cite{pow-clock}. E Satoshi resolveu esse problema usando uma solução de maneira brilhante, implementando um relógio descentralizado por meio de uma blockchain de prova de trabalho. Todos concordam de antemão que a cadeia com a maior quantidade de trabalho é a fonte da verdade. É por definição o que realmente aconteceu. Este acordo é o que agora é conhecido como consenso de Nakamoto.
+Em um ambiente radicalmente descentralizado, não podemos nos dar ao luxo de ter um tempo absoluto. Qualquer relógio introduziria uma terceira parte confiável, um ponto central no sistema que deveria ser confiado e poderia ser atacado. \enquote{O tempo é a raiz do problema}, como Grisha Trubetskoy aponta~\cite{pow-clock}. E Satoshi resolveu esse problema de forma brilhante implementando um relógio descentralizado por meio de uma blockchain de prova de trabalho. Todos concordam de antemão que a cadeia com a maior quantidade de trabalho é a fonte da verdade. É por definição o que realmente aconteceu. Este acordo é o que agora é conhecido como consenso de Nakamoto.
 
 \begin{quotation}\begin{samepage}
-\enquote{As transações de registro de data e hora da rede, colocando-as em uma cadeia contínua que serve como prova da sequência de eventos testemunhados.}
+\enquote{As transações de registro de data e hora da rede, colocando-as em uma cadeia contínua que serve como prova da sequência dos eventos testemunhados.}
 \begin{flushright} -- Satoshi Nakamoto\footnote{Satoshi Nakamoto, Whitepaper do Bitcoin~\cite{whitepaper}}
 \end{flushright}\end{samepage}\end{quotation}
 
 Sem uma maneira consistente de saber as horas, não há uma maneira consistente de saber o antes e o depois. Uma ordenação confiável é impossível. Como mencionado acima, o consenso de Nakamoto é o jeito do Bitcoin dizer a hora de maneira consistente. A estrutura de incentivos do sistema produz um relógio probabilístico e descentralizado, utilizando tanto a ganância quanto o interesse próprio dos participantes concorrentes. O fato desse relógio ser impreciso é irrelevante porque a ordem dos eventos acaba sendo inequívoca e pode ser verificada por qualquer pessoa.
 
-Graças à prova de trabalho, o trabalho \textit{e} a validação do trabalho são radicalmente descentralizados. Todos podem entrar e sair à vontade e todos podem validar tudo a qualquer momento. Além disso, todos podem validar o estado do sistema \textit{individualmente}, sem ter que depender de ninguém para a validação.
+Graças à prova de trabalho, o trabalho \textit{e} a validação do trabalho são radicalmente descentralizados. Todos podem entrar e sair à vontade e todos podem validar tudo a qualquer momento. Além disso, todos podem validar o estado do sistema \textit{individualmente}, sem ter que depender de ninguém para isso.
 
 Compreender a prova de trabalho leva tempo. Frequentemente, é contra-intuitivo e, embora as regras sejam simples, elas levam a fenômenos bastante complexos. Para mim, mudar minha perspectiva sobre a mineração ajudou. Útil, não inútil. Validação, não computação. Tempo, não blocos.
 
