@@ -1,33 +1,31 @@
 \chapter{Mova-se lentamente e não quebre as coisas}
 \label{les:18}
 
-\begin{chapquote}{Lewis Carroll, \textit{Alice no País das Maravilhas}}
-Assim, o barco navegou lentamente, sob o brilhante dia de verão, com sua tripulação alegre e sua música de vozes e risos\footnote{Nota do tradutor: Esse trecho da Alice no País das Maravilhas não foi encontrada em nenhuma das edições utilizadas na tradução, por isso foi feita a tradução do texto incluído pelo autor.}\ldots
+\begin{chapquote}{Lewis Carroll, \textit{Aventuras de Alice no subterrâneo}}
+Assim, o barco navegou lentamente, sob o brilhante dia de verão, com sua tripulação alegre e sua música de vozes e risos\ldots
 \end{chapquote}
 
-Pode ser um mantra esquecido, mas \enquote{move-se rápido e quebrar as coisas} ainda é o \textit{modus operandi} da tecnologia contemporânea. A ideia de que, não importa se você acertar tudo na primeira vez, é um pilar básico da mentalidade \textit{falhe cedo, falhe frequentemente}. O sucesso é medido pelo crescimento, então, enquanto você está crescendo, tudo bem. Se algo não funcionar no início, você simplesmente faz o pivoteamento e itera. Em outras palavras: jogue merda no ventilador e veja qual que gruda.
+Pode ser um mantra esquecido, mas \enquote{mova-se rápido e quebre as coisas} ainda é como grande parte do mundo da tecnologia opera. A ideia de que não importa se você acertar tudo na primeira vez é um pilar básico da mentalidade \textit{falhe cedo, falhe com frequência}. O sucesso é medido pelo crescimento, então, enquanto você está crescendo, tudo bem. Se algo não funcionar no início, você simplesmente pivota e itera. Em outras palavras: jogue merda na parede e veja o que gruda.
 
-O Bitcoin é muito diferente. É diferente por design. É diferente por necessidade. Como Satoshi apontou, a moeda eletrônica já foi tentada muitas vezes anteriormente, e todas as tentativas falharam porque os desenvolvedores criavam uma fera que tinha uma cabeça para ser cortada. A novidade do Bitcoin, é que ele é uma besta sem cabeça.
+O Bitcoin é muito diferente. É diferente por design. É diferente por necessidade. Como Satoshi apontou, uma moeda eletrônica já foi tentada muitas vezes anteriormente, e todas as tentativas falharam porque tinha uma cabeça para ser cortada. A novidade do Bitcoin, é que ele é uma besta sem cabeça.
 
 \begin{quotation}\begin{samepage}
-\enquote{Muitas pessoas descartam automaticamente a moeda eletrônica como uma causa perdida
-por conta de todas as empresas que faliram desde a década de 1990. Espero que seja
-óbvio que foi apenas a natureza centralizada dos sistemas que fez com que elas estivessem condenadas.}
+\enquote{Muitas pessoas descartam automaticamente a moeda eletrônica como uma causa perdida por conta de todas as empresas que faliram desde a década de 1990. Espero que seja óbvio que foi apenas a natureza centralizada dos sistemas que fez com que elas estivessem condenadas.}
 \begin{flushright} -- Satoshi Nakamoto\footnote{Satoshi Nakamoto, em resposta ao usuário Sepp Hasslberger. \cite{satoshi-centralized-nature}}
 \end{flushright}\end{samepage}\end{quotation}
 
 Uma consequência dessa descentralização radical é uma resistência inerente à mudança. \enquote{Mova-se rápido e quebre as coisas} não funciona e nunca funcionará na camada base do Bitcoin. Mesmo que fosse desejável, não seria possível convencer \textit{todos} os usuários a mudarem seus hábitos. Isso é consenso distribuído. Essa é a natureza do Bitcoin.
 
 \begin{quotation}\begin{samepage}
-\enquote{A natureza do Bitcoin é tal que, uma vez que a versão 0.1 foi lançada, o projeto principal foi gravado em pedra para o resto de sua vida.}
+\enquote{A natureza do Bitcoin é tal que, uma vez que a versão 0.1 foi lançada, o seu design principal foi gravado em pedra para o resto de sua vida.}
 \begin{flushright} -- Satoshi Nakamoto\footnote{Satoshi Nakamoto, em resposta ao usuário Gavin Andresen \cite{satoshi-centralized-nature}}
 \end{flushright}\end{samepage}\end{quotation}
 
 Esta é uma das muitas propriedades paradoxais do Bitcoin. Todos nós acreditamos que qualquer coisa que seja software pode ser alterada facilmente. Mas a natureza da besta torna muito difícil mudá-la.
 
-Como Hasu mostra lindamente em Abrindo o Contrato Social do Bitcoin~\cite{social-contract}, mudar as regras do Bitcoin só é possível \textit{propondo} uma mudança e, consequentemente, \textit{convencendo} todos os usuários do Bitcoin a adotarem essa mudança. Isso torna o Bitcoin muito resistente a alterações, mesmo sendo um software.
+Como Hasu mostra lindamente em Unpacking Bitcoin's Social Contract~\cite{social-contract}, mudar as regras do Bitcoin só é possível \textit{propondo} uma mudança e, consequentemente, \textit{convencendo} todos os usuários do Bitcoin a adotarem essa mudança. Isso torna o Bitcoin muito resistente a alterações, mesmo sendo um software.
 
-Essa resiliência é uma das propriedades mais importantes do Bitcoin. Os sistemas de software críticos têm que ser antifrágeis. É isso que a interação da camada social do Bitcoin e sua camada técnica garantem. Os sistemas monetários são adversários por natureza e, como sabemos há milhares de anos, bases sólidas são essenciais em um ambiente hostil.
+Essa resiliência é uma das propriedades mais importantes do Bitcoin. Os sistemas de software críticos têm que ser antifrágeis. É isso que a interação entre a camada social e técnica do Bitcoin garantem. Os sistemas monetários são adversários por natureza, e como sabemos há milhares de anos, bases sólidas são essenciais em um ambiente hostil.
 
 \begin{quotation}\begin{samepage}
 \enquote{E desceu a chuva, e correram rios, e assopraram ventos, e combateram aquela casa, e não caiu, porque estava edificada sobre a rocha.}
@@ -38,20 +36,20 @@ Indiscutivelmente, nesta parábola dos construtores sábios e tolos, o Bitcoin n
 
 Assim como os geólogos, que sabem que as formações rochosas estão sempre se movendo e evoluindo, pode-se ver que o Bitcoin está sempre se movendo e evoluindo também. Você só precisa saber para onde olhar e como olhar para ele.
 
-A introdução de pay to script hash \footnote{Transações do tipo Pay to script hash (P2SH) foram padronizadas no BIP16. Eles permitem que as transações sejam enviadas para um script hash (endereço começando com 3) ao invés de um hash de chave pública (endereços começando com 1) ~\cite{btcwiki:p2sh}} e segregated witnesses\footnote{Segregated Witness (abreviado como SegWit) é uma atualização de protocolo implementada com o objetivo de fornecer proteção contra maleabilidade de transação além de aumentar a capacidade do bloco. O SegWit separa a \textit{testemunha} da lista de entradas.~\cite{btcwiki:segwit}} São a prova de que as regras do Bitcoin podem ser alteradas se um número suficiente de usuários estiver convencido de que adotar tal alteração é benéfico para a rede. Este último possibilitou o desenvolvimento da rede lightning\footnote{\url{https://lightning.network/}}, que é uma das casas que estão sendo construídas sobre a base sólida do Bitcoin. Atualizações futuras como assinaturas Schnorr~\cite{bip:schnorr} irão aumentar a eficiência e privacidade, bem como scripts (leia-se: contratos inteligentes) que serão indistinguíveis de transações regulares graças ao Taproot~\cite{taproot}. Construtores sábios realmente constroem em bases sólidas.
+A introdução de pay to script hash \footnote{Transações do tipo pay to script hash (P2SH) foram padronizadas no BIP 16. Eles permitem que as transações sejam enviadas para um script hash (endereço começando com 3) ao invés de um hash de chave pública (endereços começando com 1) ~\cite{btcwiki:p2sh}} e segregated witnesses\footnote{Segregated Witness (abreviado como SegWit) é uma atualização de protocolo implementada com o objetivo de fornecer proteção contra maleabilidade de transação além de aumentar a capacidade do bloco. O SegWit separa a \textit{testemunha} da lista de entradas.~\cite{btcwiki:segwit}} são a prova de que as regras do Bitcoin podem ser alteradas se um número suficiente de usuários estiver convencido de que adotar tal alteração é benéfica para a rede. Essa última possibilitou o desenvolvimento da rede lightning\footnote{\url{https://lightning.network/}}, que é uma das casas que estão sendo construídas sobre a base sólida do Bitcoin. Atualizações futuras como assinaturas Schnorr~\cite{bip:schnorr} irão aumentar a eficiência e privacidade, bem como scripts (leia-se: contratos inteligentes) que serão indistinguíveis de transações regulares graças ao Taproot~\cite{taproot}. Construtores sábios realmente constroem em bases sólidas.
 
-O Satoshi não era apenas um construtor tecnologicamente sábio. Ele também entendeu que seria necessário tomar decisões acertadas ideologicamente.
+Satoshi não era apenas um construtor sábio tecnologicamente. Ele também entendeu que seria necessário tomar decisões acertadas ideologicamente.
 
 \begin{quotation}\begin{samepage}
 \enquote{Ser código aberto significa que qualquer pessoa pode revisar o código de forma independente. Se fosse de código fechado, ninguém poderia verificar a segurança. Eu acho que é essencial para um programa desta natureza que seu código seja aberto.}
 \begin{flushright} -- Satoshi Nakamoto\footnote{Satoshi Nakamoto, em resposta ao usuário SmokeTooMuch \cite{satoshi-open-source}}
 \end{flushright}\end{samepage}\end{quotation}
 
-A abertura é fundamental para a segurança e inerente ao código aberto e ao movimento do software livre. Como Satoshi apontou, os protocolos seguros e o código que os implementa devem ser abertos --- não há segurança através da obscuridade. Outro benefício está novamente relacionado à descentralização: o código que pode ser executado, estudado, modificado, copiado e distribuído gratuitamente garante que ele seja espalhado por toda parte.
+A abertura é fundamental para a segurança e inerente ao código aberto e ao movimento de software livre. Como Satoshi apontou, os protocolos seguros e o código que os implementam devem ser abertos --- não há segurança através da obscuridade. Outro benefício está novamente relacionado à descentralização: o código que pode ser executado, estudado, modificado, copiado e distribuído gratuitamente garante que ele seja espalhado por toda parte.
 
-A natureza radicalmente descentralizada do Bitcoin é o que o faz se mover lenta e progressivamente. Uma rede de nodes, cada um administrado por um indivíduo soberano, é inerentemente resistente a mudanças - maliciosas ou não. Sem nenhuma maneira de forçar as atualizações aos usuários, a única maneira de introduzir mudanças é convencer lentamente cada um desses indivíduos a adotá-la. Esse processo descentralizado de introdução e implantação de alterações é o que torna a rede incrivelmente resistente a mudanças maliciosas. É também o que torna mais difícil consertar coisas quebradas do que em um ambiente centralizado, razão pela qual ninguém quebra nada em primeiro lugar.
+A natureza radicalmente descentralizada do Bitcoin é o que o move de forma lenta e deliberada. Uma rede de nodes, cada um administrado por um indivíduo soberano, é inerentemente resistente a mudanças, maliciosas ou não. Sem nenhuma forma de forçar as atualizações aos usuários, a única maneira de introduzir mudanças é convencer lentamente cada um desses indivíduos a adotá-las. Esse processo descentralizado de introdução e implantação de alterações é o que torna a rede incrivelmente resistente a mudanças maliciosas. É também o que torna mais difícil consertar coisas quebradas do que em um ambiente centralizado, é por isso que todos tentam não quebrar as coisas em primeiro lugar.
 
-\paragraph{O Bitcoin me ensinou que mover-se devagar é uma de suas características, não um bug.}
+\paragraph{O Bitcoin me ensinou que mover-se devagar é uma de suas funcionalidades, não um bug.}
 
 % ---
 %
