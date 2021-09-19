@@ -1,6 +1,6 @@
 # As 21 Lições
 
-Este repositório contém o código-fonte LaTeX para uma versão impressa do *As 21 Lições - O que aprendi ao cair da toca do coelho do Bitcoin*.
+Este repositório contém o código-fonte LaTeX para uma versão impressa de *As 21 Lições - O que aprendi ao cair da toca do coelho do Bitcoin*.
 
 ![](https://21lessons.com/assets/images/21-lessons-book.png)
 
@@ -19,7 +19,7 @@ marca a primeira edição do livro, lançado em 24 de dezembro de 2019. Está di
 
 ## Versões em eBook
 
-O [branch do e-book](https://github.com/dergigi/21lessons-book/tree/ebook) contém uma versão ligeiramente modificada do código-fonte adequada para construir as versões do livro no formado de e-book.
+A [branch do e-book](https://github.com/dergigi/21lessons-book/tree/ebook) contém uma versão ligeiramente modificada do código-fonte adequada para construir as versões do livro no formado de e-book.
 
 ## Versão em PDF
 
